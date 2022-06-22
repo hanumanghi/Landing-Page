@@ -1,9 +1,10 @@
 .body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.header{
+.header {
     color: #F9FAF8;
     background-color: #1F2937;
     font-size: 24px;
@@ -119,6 +120,11 @@ ul{
     border:2px white;
     align-self: center;
     border-radius: 4px;
-
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 16px;
+}
