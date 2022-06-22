@@ -60,9 +60,28 @@ ul{
     gap: 36px;
     padding-left:248px;
     padding-right: 248px;
+    margin-bottom: 32px;
 }
 
 .caption {
     font-size: 12px;
     color: gray;
+}
+
+.inspo {
+    background-color:#e5e7eb ;
+    padding: 248px;
+    padding-bottom: 56px;
+    padding-top: 56px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quoter{ 
+    padding-top: 8px;
+    display: flex;
+    justify-content: flex-end;
 }
