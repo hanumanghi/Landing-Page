@@ -31,11 +31,12 @@
     color: #E5E7EB
 }
 
-button {
+.button {
     color: #F9faf8;
     background-color: #3882F6;
     border:0px;
     border-radius: 4px;
+    cursor: pointer;
 }
 ul{
     list-style-type: none;
@@ -85,3 +86,39 @@ ul{
     display: flex;
     justify-content: flex-end;
 }
+
+.action {
+    color:#E5E7EB;
+    background-color: #3882F6;
+    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 124px;
+    margin-right: 124px;
+    margin-top: 64px;
+    margin-bottom:64px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-weight: bolder;
+
+}
+
+.help{
+    font-size: 12px;
+}
+
+.accept {
+    border:2px white;
+    align-self: center;
+    border-radius: 4px;
+
+}
+
